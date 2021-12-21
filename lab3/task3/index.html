@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">   
+
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+   <title>Task 3 Vizniak</title>
+</head>
+
+<body>
+   <header>
+      <nav>
+         <ul class="navbar">
+            <li><a href="#">Форми навчання</a></li>
+            <li><a href="#">Заходи</a></li>
+            <li><a href="#">Про компанію</a></li>
+            <li><a href="#">Контакти</a></li>
+         </ul>
+         <div class="box">
+            <select>
+               <option>Option 1</option>
+               <option>Option 2</option>
+               <option selected>Київ</option>
+               <option>Option 4</option>
+               <option>Option 5</option>
+            </select>
+         </div>
+      </nav>
+      <section class="welcome-banner">
+         <h2>
+            Програма курсу <br>
+            <span>React</span>
+         </h2>
+         <div class="wrapper">
+            <div class="welcome-img">
+               <img src="../sources/img/40.jpg" alt="">
+               <p>Опануй react за 20 занять</p>
+            </div>
+            <div class="step-list">
+               <ul class="tabs">
+                  <li>
+                     <input type="radio" name="step-num" id="tab1" checked>
+                     <label class="desk" for="tab1">Встановлення react</label>
+                  </li>
+                  <li>
+                     <input type="radio" name="step-num" id="tab2">
+                     <label class="desk" for="tab2">Класові компоненти</label>
+                  </li>
+                  <li>
+                     <input type="radio" name="step-num" id="tab3">
+                     <label class="desk" for="tab3">state &amp; props</label>
+                  </li>
+                  <li>
+                     <input type="radio" name="step-num" id="tab4">
+                     <label class="desk" for="tab4">Data forwarding &amp; props drilling</label>
+                  </li>
+                  <li>
+                     <input type="radio" name="step-num" id="tab5">
+                     <label class="desk" for="tab5">lifecycle hooks</label>
+                  </li>
+                  <li>
+                     <input type="radio" name="step-num" id="tab6">
+                     <label class="desk" for="tab6">Функціональні компоненти</label>
+                  </li>
+                  <li>
+                     <input type="radio" name="step-num" id="tab7">
+                     <label class="desk" for="tab7">Routing</label>
+                  </li>
+                  <li>
+                     <input type="radio" name="step-num" id="tab8">
+                     <label class="desk" for="tab8">Hooks</label>
+                  </li>
+                  <li>
+                     <input type="radio" name="step-num" id="tab9">
+                     <label class="desk" for="tab9">Redux</label>
+                  </li>
+               </ul>
+            </div>
+            <div class="welcome-btn-block">
+               <div class="bg-text">
+                  <div class="bg-text-border">owu</div>
+                  <div class="bg-text-borderless">react</div>
+               </div>
+               <button class="btn">Записатись на курс</button>
+            </div>
+         </div>
+      </section>
+   </header>
+   <main>
+      <section class="courses-cards">
+         <div class="courses-type"><span>стаціонар</span></div>
+         <div class="cards-wrapper">
+            <div class="card-item">
+               <p class="card-name">Minimal</p>
+               <ul class="card-plan">
+                  <li>40 годин</li>
+                  <li>2 місяці</li>
+                  <li>12 годин в тиждень</li>
+                  <li>Розтермінування до 24 міс.</li>
+                  <li class="inactive">Безкоштовне повторення проходження курсу</li>
+                  <li class="inactive">Особистий ментор</li>
+               </ul>
+               <div class="card-price">
+                  <p class="old-price">17 000 грн</p>
+                  <p>8 500 грн</p>
+               </div>
+               <div class="card-btn-wrap">
+                  <p class="slots-left">3 вільних місця</p>
+                  <button class="card-btn">Записатись на курс</button>
+               </div>
+            </div>
+            <div class="card-item">
+               <p class="card-name">Pro</p>
+               <ul class="card-plan">
+                  <li>40 годин</li>
+                  <li>2 місяці</li>
+                  <li>12 годин в тиждень</li>
+                  <li>Розтермінування до 24 міс.</li>
+                  <li>Безкоштовне повторення проходження курсу</li>
+                  <li>Особистий ментор</li>
+               </ul>
+               <div class="card-price">
+                  <p class="old-price">25 000 грн</p>
+                  <p>12 500 грн</p>
+               </div>
+               <div class="card-btn-wrap">
+                  <p class="slots-left">3 вільних місця</p>
+                  <button class="card-btn">Записатись на курс</button>
+               </div>
+            </div>
+            <div class="card-item">
+               <p class="card-name">Індивідуально</p>
+               <div class="card-description">
+                  <p>Об'єм, навантаження, тривалість визначаються індивідуально для кожного студента
+                     його персональним ментором
+                  </p>
+               </div>
+               <div class="card-price">
+                  <p class="old-price">100 000 грн</p>
+                  <p>51 000 грн</p>
+               </div>
+               <div class="card-btn-wrap">
+                  <p class="slots-left">1 вільне місце</p>
+                  <button class="card-btn">Записатись на курс</button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="course-registation">
+         <div class="bg-text">
+            <div class="bg-text-borderless">QA/QC</div>
+         </div>
+         <div class="wrapper">
+            <h3>Комлпексний курс <br>
+               тестування QA
+            </h3>
+            <br>
+            <span>Такого крутого курсу тестування ще не було!</span>
+            <p>Найбільший та найкращий курс тестування в Україні. <br> Гарантія працевлаштування
+               Найбільшийнабір технологій
+            </p>
+            <br>
+            <br>
+            <button class="btn">Забронювати місце</button>
+         </div>
+      </section>
+      <div class="banner">
+         <div class="wrapper">
+            <div class="banner-text">
+               <p>Навчайся зараз</p>
+               <p><b>Сплачуй потім</b></p>
+               <br>
+               <p><small>розтермінування платежів до 24 місяців</small></p>
+            </div>
+            <button class="btn">Дізнатись деталі</button>
+         </div>
+      </div>
+   </main>
+</body>
+
+</html>
